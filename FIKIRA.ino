@@ -22,7 +22,7 @@ SoftwareSerial ss(RXPin, TXPin);
  
 #define DHTPIN 2 
 #define DHTTYPE DHT11  
-const char* UBIDOTS_TOKEN = "BBFF-FRqMx3Ew5l6z0CdBxCOoNoiYIhVId6";  
+const char* UBIDOTS_TOKEN = "";  
 const char* WIFI_SSID = "aliyu";      
 const char* WIFI_PASS = "******##";      
 Ubidots ubidots(UBIDOTS_TOKEN, UBI_HTTP);
